@@ -24,11 +24,11 @@ before:
 
 steps:
 # Step 1: INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: # the type of action, full list at https://lab.github.com/docs/actions
+- title: Planning your path # the title of the step, shown to the learner in the course progress page
+  description: You will begin the course by setting up a project board # a description of the step, shown to the learner in the course progress page
+  event: project is created when the user comments on the issue, and the name, description, and columns can be taken and used? Can provide a template if they want # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  actions: project is created in the repo # a list of the actions that will occur when the step is triggered by an event
+  - type: createProjectBoard # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 2: INTERNAL COMMENT FOR STEP 2
 # - title: # the title of the step, shown to the learner in the course progress page
